@@ -59,7 +59,7 @@ Welcome to **Kutafuta Kazi**, a job board application designed to connect job se
    
 ## Open the Application
 
-1. Open your web browser and navigate to:
+1. Open your web browser and navigate to localhost:
 to view the job board application.
 
 ## Usage
