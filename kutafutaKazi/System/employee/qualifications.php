@@ -33,18 +33,18 @@ $page = 1;
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Bwire Jobs - Professional Qualifications</title>
-	<meta name="description" content="Online Job Management / Job Portal" />
-	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
-	<meta name="author" content="BwireSoft">
+	<title>Kutafuta Kazi - Academic qualifications</title>
+	<meta name="description" content="Kutafuta Kazi / Job Portal" />
+	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, Kutafuta Kazi, company, worker, career, recruiting, recruitment" />
+	<meta name="author" content="Kutafuta Kazi">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="http://<?php echo "$actual_link"; ?>/images/banner.jpg" />
     <meta property="og:image:secure_url" content="https://<?php echo "$actual_link"; ?>/images/banner.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="500" />
     <meta property="og:image:height" content="300" />
-    <meta property="og:image:alt" content="Bwire Jobs" />
-    <meta property="og:description" content="Online Job Management / Job Portal" />
+    <meta property="og:image:alt" content="Kutafuta Kazi" />
+    <meta property="og:description" content="Kutafuta Kazi / Job Portal" />
 
 	<link rel="shortcut icon" href="../images/ico/favicon.png">
 
@@ -94,7 +94,7 @@ $page = 1;
 					
 					<div class="logo-wrapper">
 						<div class="logo">
-							<a href="../"><img src="../images/logo.png" alt="Logo" /></a>
+							<a href="../"><img src="../images/logo-black (3).png" alt="Logo" /></a>
 						</div>
 					</div>
 					
@@ -152,8 +152,8 @@ $page = 1;
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="../">Bwire Jobs</a></li>
-						<li><span>Professional Qualifications</span></li>
+						<li><a href="../">Kutafuta Kazi</a></li>
+						<li><span>Academic qualifications</span></li>
 					</ol>
 					
 				</div>
@@ -206,7 +206,7 @@ $page = 1;
 										<a href="change-password.php"><i class="fa fa-key"></i> Change Password</a>
 										</li>
 										<li  class="active">
-											<a href="qualifications.php"><i class="fa fa-trophy"></i> Professional Qualifications</a>
+											<a href="qualifications.php"><i class="fa fa-trophy"></i> Academic qualifications</a>
 										</li>
 										<li>
 											<a href="language.php"><i class="fa fa-language"></i> Language Proficiency</a>
@@ -244,7 +244,7 @@ $page = 1;
 
 									<div class="admin-section-title">
 									
-										<h2>Professional Qualifications</h2>
+										<h2>Academic qualifications</h2>
 					
 										
 									</div>
@@ -487,7 +487,7 @@ $page = 1;
 			
 				                    <div class="modal-header">
 					                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					                 <h4 class="modal-title text-center">Add professional qualifications</h4>
+					                 <h4 class="modal-title text-center">Add Academic qualifications</h4>
 				                    </div>
 				
 				                    <div class="modal-body">
@@ -610,8 +610,8 @@ $page = 1;
 									<div class="col-sm-6 col-md-4">
 									
 										<div class="footer-about-us">
-											<h5 class="footer-title">About Bwire Jobs</h5>
-											<p>Bwire Jobs is a job portal, online job management system developed by Bwire C Mashauri in february 2018.</p>
+											<h5 class="footer-title">About Kutafuta Kazi</h5>
+											<p>Kutafuta Kazi is a job portal, Kutafuta Kazi system developed by Bwire C Mashauri in february 2018.</p>
 										
 										</div>
 
@@ -637,7 +637,7 @@ $page = 1;
 							
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
-								<h5 class="footer-title">Bwire Jobs Contact</h5>
+								<h5 class="footer-title">Kutafuta Kazi Contact</h5>
 								
 								<p>Address : Dar es salaam, Tanzania PO.BOX 14859</p>
 								<p>Email : <a href="mailto:mashauri@programmer.net">mashauri@programmer.net</a></p>
@@ -661,14 +661,14 @@ $page = 1;
 						
 							<div class="col-sm-4 col-md-4">
 					
-								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> BwireSoft</p>
+								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> Kutafuta Kazi</p>
 								
 							</div>
 							
 							<div class="col-sm-4 col-md-4">
 							
 								<ul class="bottom-footer-menu">
-									<li><a >Developed by Bwire Charles Mashauri</a></li>
+									<li><a >Developed by Kyanzi Hassan Musis</a></li>
 								</ul>
 							
 							</div>

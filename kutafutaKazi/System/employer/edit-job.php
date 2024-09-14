@@ -62,18 +62,18 @@ foreach($result as $row)
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Bwire Jobs - <?php echo "$jobtitle"; ?></title>
-	<meta name="description" content="Online Job Management / Job Portal" />
-	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
-	<meta name="author" content="BwireSoft">
+	<title>Kutafuta Kazi - <?php echo "$jobtitle"; ?></title>
+	<meta name="description" content="Kutafuta Kazi / Job Portal" />
+	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, Kutafuta Kazi, company, worker, career, recruiting, recruitment" />
+	<meta name="author" content="Kutafuta Kazi">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="http://<?php echo "$actual_link"; ?>/images/banner.jpg" />
     <meta property="og:image:secure_url" content="https://<?php echo "$actual_link"; ?>/images/banner.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="500" />
     <meta property="og:image:height" content="300" />
-    <meta property="og:image:alt" content="Bwire Jobs" />
-    <meta property="og:description" content="Online Job Management / Job Portal" />
+    <meta property="og:image:alt" content="Kutafuta Kazi" />
+    <meta property="og:description" content="Kutafuta Kazi / Job Portal" />
 
 	<link rel="shortcut icon" href="../images/ico/favicon.png">
 
@@ -109,7 +109,7 @@ foreach($result as $row)
 					
 					<div class="logo-wrapper">
 						<div class="logo">
-							<a href="../"><img src="../images/logo.png" alt="Logo" /></a>
+							<a href="../"><img src="../images/logo-black (3).png" alt="Logo" /></a>
 						</div>
 					</div>
 					
@@ -124,16 +124,16 @@ foreach($result as $row)
 							</li>
 							
 							<li>
-								<a href="../job-list.php">Job List</a>
+								<a href="../job-list.php">Jobs</a>
 
 							</li>
 							
 							<li>
-								<a href="../employers.php">Employers</a>
+								<a href="../employers.php">Recruiters</a>
 							</li>
 							
 							<li>
-								<a href="../employees.php">Employees</a>
+								<a href="../employees.php">Job Seekers</a>
 							</li>
 							
 							<li>
@@ -472,8 +472,8 @@ foreach($result as $row)
 									<div class="col-sm-6 col-md-4">
 									
 										<div class="footer-about-us">
-											<h5 class="footer-title">About Bwire Jobs</h5>
-											<p>Bwire Jobs is a job portal, online job management system developed by Bwire C Mashauri in february 2018.</p>
+											<h5 class="footer-title">About Kutafuta Kazi</h5>
+											<p>Kutafuta Kazi is a job portal, Kutafuta Kazi system developed by Bwire C Mashauri in february 2018.</p>
 										
 										</div>
 
@@ -499,7 +499,7 @@ foreach($result as $row)
 							
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
-								<h5 class="footer-title">Bwire Jobs Contact</h5>
+								<h5 class="footer-title">Kutafuta Kazi Contact</h5>
 								
 								<p>Address : Dar es salaam, Tanzania PO.BOX 14859</p>
 								<p>Email : <a href="mailto:mashauri@programmer.net">mashauri@programmer.net</a></p>
@@ -523,14 +523,14 @@ foreach($result as $row)
 						
 							<div class="col-sm-4 col-md-4">
 					
-								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> BwireSoft</p>
+								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> Kutafuta Kazi</p>
 								
 							</div>
 							
 							<div class="col-sm-4 col-md-4">
 							
 								<ul class="bottom-footer-menu">
-									<li><a >Developed by Bwire Charles Mashauri</a></li>
+									<li><a >Developed by Kyanzi Hassan Musis</a></li>
 								</ul>
 							
 							</div>

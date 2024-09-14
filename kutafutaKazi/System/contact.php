@@ -11,9 +11,9 @@ include 'constants/check-login.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Kutafuta Kazi- Contact Us</title>
-	<meta name="description" content="Online Job Management / Job Portal" />
-	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
-	<meta name="author" content="BwireSoft">
+	<meta name="description" content="Kutafuta Kazi / Job Portal" />
+	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, Kutafuta Kazi, company, worker, career, recruiting, recruitment" />
+	<meta name="author" content="Kutafuta Kazi">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="http://<?php echo "$actual_link"; ?>/images/banner.jpg" />
     <meta property="og:image:secure_url" content="https://<?php echo "$actual_link"; ?>/images/banner.jpg" />
@@ -21,7 +21,7 @@ include 'constants/check-login.php';
     <meta property="og:image:width" content="500" />
     <meta property="og:image:height" content="300" />
     <meta property="og:image:alt" content="Nightingale Jobs" />
-    <meta property="og:description" content="Online Job Management / Job Portal" />
+    <meta property="og:description" content="Kutafuta Kazi / Job Portal" />
 
 	<link rel="shortcut icon" href="images/ico/favicon.png">
 
@@ -73,16 +73,16 @@ include 'constants/check-login.php';
 							</li>
 							
 							<li>
-								<a href="job-list.php">Job List</a>
+								<a href="job-list.php">Jobs</a>
 
 							</li>
 							
 							<li>
-								<a href="employers.php">Employers</a>
+								<a href="employers.php">Recruiters</a>
 							</li>
 							
 							<li>
-								<a href="employees.php">Employees</a>
+								<a href="employees.php">Job Seekers</a>
 							</li>
 							
 							<li>

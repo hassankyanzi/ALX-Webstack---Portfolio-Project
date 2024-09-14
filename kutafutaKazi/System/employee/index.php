@@ -20,17 +20,17 @@ header("location:../");
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Kutafuta Kazi- Employee Profile</title>
-	<meta name="description" content="Online Job Management / Job Portal" />
-	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
-	<meta name="author" content="BwireSoft">
+	<meta name="description" content="Kutafuta Kazi / Job Portal" />
+	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, Kutafuta Kazi, company, worker, career, recruiting, recruitment" />
+	<meta name="author" content="Kutafuta Kazi">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="http://<?php echo "$actual_link"; ?>/images/banner.jpg" />
     <meta property="og:image:secure_url" content="https://<?php echo "$actual_link"; ?>/images/banner.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="500" />
     <meta property="og:image:height" content="300" />
-    <meta property="og:image:alt" content="Bwire Jobs" />
-    <meta property="og:description" content="Online Job Management / Job Portal" />
+    <meta property="og:image:alt" content="Kutafuta Kazi" />
+    <meta property="og:description" content="Kutafuta Kazi / Job Portal" />
 
 	<link rel="shortcut icon" href="../images/ico/favicon.png">
 
@@ -75,7 +75,7 @@ header("location:../");
 					
 					<div class="logo-wrapper">
 						<div class="logo">
-							<a href="../"><img src="../images/logo.png" alt="Logo" /></a>
+							<a href="../"><img src="../images/logo-black (3).png" alt="Logo" /></a>
 						</div>
 					</div>
 					
@@ -133,7 +133,7 @@ header("location:../");
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="../">Bwire Jobs</a></li>
+						<li><a href="../">Kutafuta Kazi</a></li>
 						<li><span>Profile</span></li>
 					</ol>
 					
@@ -187,7 +187,7 @@ header("location:../");
 										<a href="change-password.php"><i class="fa fa-key"></i> Change Password</a>
 										</li>
 										<li>
-											<a href="qualifications.php"><i class="fa fa-trophy"></i> Professional Qualifications</a>
+											<a href="qualifications.php"><i class="fa fa-trophy"></i> Academic qualifications</a>
 										</li>
 										<li>
 											<a href="language.php"><i class="fa fa-language"></i> Language Proficiency</a>

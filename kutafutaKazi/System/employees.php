@@ -26,17 +26,17 @@ $page = 1;
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Kutafuta Kazi- Employees</title>
-	<meta name="description" content="Online Job Management / Job Portal" />
-	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
-	<meta name="author" content="BwireSoft">
+	<meta name="description" content="Kutafuta Kazi / Job Portal" />
+	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, Kutafuta Kazi, company, worker, career, recruiting, recruitment" />
+	<meta name="author" content="Kutafuta Kazi">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="http://<?php echo "$actual_link"; ?>/images/banner.jpg" />
     <meta property="og:image:secure_url" content="https://<?php echo "$actual_link"; ?>/images/banner.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="500" />
     <meta property="og:image:height" content="300" />
-    <meta property="og:image:alt" content="Bwire Jobs" />
-    <meta property="og:description" content="Online Job Management / Job Portal" />
+    <meta property="og:image:alt" content="Kutafuta Kazi" />
+    <meta property="og:description" content="Kutafuta Kazi / Job Portal" />
 
 	<link rel="shortcut icon" href="images/ico/favicon.png">
 	
@@ -371,9 +371,9 @@ $page = 1;
 										<h5 class="footer-title">Quick Links</h5>
 										<ul class="footer-menu clearfix">
 											<li><a href="./">Home</a></li>
-											<li><a href="job-list.php">Job List</a></li>
-											<li><a href="employers.php">Employers</a></li>
-											<li><a href="employees.php">Employees</a></li>
+											<li><a href="job-list.php">Jobs</a></li>
+											<li><a href="employers.php">Recruiters</a></li>
+											<li><a href="employees.php">Job Seekers</a></li>
 											<li><a href="contact.php">Contact Us</a></li>
 											<li><a href="#">Go to top</a></li>
 

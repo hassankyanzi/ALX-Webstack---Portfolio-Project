@@ -160,7 +160,7 @@ $pdf->SetFont('Arial','B',14);
 $pdf->SetDrawColor(184,204,229);
 $pdf->SetFillColor(184,204,229);
 $pdf->SetTextColor(0,0,0);
-$pdf->Cell(80,9,'Professional Qualifications',1,1,'L',true);
+$pdf->Cell(80,9,'Academic qualifications',1,1,'L',true);
 
 $pdf->SetDrawColor(255,255,255);
 $pdf->SetFillColor(255,255,255);
