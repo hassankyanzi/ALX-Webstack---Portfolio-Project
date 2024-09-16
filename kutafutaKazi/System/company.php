@@ -89,7 +89,7 @@ $page = 1;
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="500" />
     <meta property="og:image:height" content="300" />
-    <meta property="og:image:alt" content="Nightingale Jobs" />
+    <meta property="og:image:alt" content="Kutafuta Kazi" />
     <meta property="og:description" content="Kutafuta Kazi / Job Portal" />
 
 	<link rel="shortcut icon" href="images/ico/favicon.png">
@@ -507,7 +507,7 @@ $page = 1;
 							
 								<h5 class="footer-title">Kutafuta Kazi Contact</h5>
 								
-								<p>Address : Kitintale zone 13</p>
+								<p>Address : Kampala, Uganda</p>
 								<p>Email : <a href="mailto:kyanzi.hassan2@gmail.com">kyanzi.hassan2@gmail.com</a></p>
 								<p>Phone : <a href="tel:+233546607474">+256 701 761425</a></p>
 								

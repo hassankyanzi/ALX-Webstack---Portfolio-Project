@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('Africa/Dar_es_salaam');
+date_default_timezone_set('Africa/Kampala');
 require '../../constants/db_config.php';
 require '../constants/check-login.php';
 require '../../constants/uniques.php';

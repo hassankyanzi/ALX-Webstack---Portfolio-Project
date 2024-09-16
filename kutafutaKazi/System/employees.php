@@ -389,7 +389,7 @@ $page = 1;
 							
 								<h5 class="footer-title">Kutafuta Kazi Contact</h5>
 								
-								<p>Address : Kitintale zone 13</p>
+								<p>Address : Kampala, Uganda</p>
 								<p>Email : <a href="mailto:kyanzi.hassan2@gmail.com">kyanzi.hassan2@gmail.com</a></p>
 								<p>Phone : <a href="tel:+233546607474">+256 701 761425</a></p>
 								

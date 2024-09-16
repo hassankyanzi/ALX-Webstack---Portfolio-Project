@@ -137,7 +137,7 @@ header("location:../");
 				<div class="container">
 				
 					<ol class="breadcrumb-list booking-step">
-						<li><a href="../">Nightingale Jobs</a></li>
+						<li><a href="../">Kutafuta Kazi</a></li>
 						<li><span>Change Password</span></li>
 					</ol>
 					
@@ -323,7 +323,7 @@ header("location:../");
 							
 								<h5 class="footer-title">Kutafuta Kazi Contact</h5>
 								
-								<p>Address : Kitintale zone 13</p>
+								<p>Address : Kampala, Uganda</p>
 								<p>Email : <a href="mailto:kyanzi.hassan2@gmail.com">kyanzi.hassan2@gmail.com</a></p>
 								<p>Phone : <a href="tel:+233546607474">+256 701 761425</a></p>
 								

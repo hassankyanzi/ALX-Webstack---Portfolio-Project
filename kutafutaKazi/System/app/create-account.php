@@ -1,6 +1,6 @@
 <?php
 // Set the timezone
-date_default_timezone_set('Africa/Dar_es_salaam');
+date_default_timezone_set('Africa/Kampala');
 
 // Check if the form has been submitted
 if (isset($_POST['reg_mode'])) {
@@ -94,60 +94,45 @@ function register_as_employee() {
 // Function to register an employer
 function register_as_employer() {
     try {
-        // Import necessary constants and functions
         require '../constants/db_config.php';
         require '../constants/uniques.php';
-
-        // Collect data from POST
+        
+        
         $role = 'employer';
         $last_login = date('d-m-Y h:i A [T P]');
-        $comp_no = 'CM'.get_rand_numbers(9);  // Unique company number
-        $cname = ucwords($_POST['company']); // Company name from form
-        $ctype = ucwords($_POST['type']);    // Company type from form
-        $email = $_POST['email'];            // Email from form
-        $login = password_hash($_POST['password'], PASSWORD_DEFAULT); // Secure password hash
-
-        // Debugging: Check if form data is being received correctly
-        if (empty($cname) || empty($ctype) || empty($email) || empty($_POST['password'])) {
-            // If any required fields are missing, redirect with error
-            header("location:../register.php?p=Employer&r=4568&message=All fields are required");
-            exit;
-        }
-
+        $member_no = 'EM'.get_rand_numbers(9).'';
+        $cname = ucwords($_POST['cname']);
+        $ctype = ucwords($_POST['ctype']);
+        $email = $_POST['email'];
+        $login = password_hash($_POST['password'], PASSWORD_DEFAULT); // Secure password hashing
+        
         // Connect to the database
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-        // Prepare SQL query for employer registration
+        
+        // Insert employer data into the database
         $stmt = $conn->prepare("INSERT INTO tbl_users (company_name, company_type, email, last_login, login, role, member_no) 
-                                VALUES (:company, :type, :email, :lastlogin, :login, :role, :memberno)");
-
-        // Bind the form data to the SQL query
-        $stmt->bindParam(':company', $cname);
-        $stmt->bindParam(':type', $ctype);
+        VALUES (:cname, :ctype, :email, :lastlogin, :login, :role, :memberno)");
+        
+        // Bind parameters
+        $stmt->bindParam(':cname', $cname);
+        $stmt->bindParam(':ctype', $ctype);
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':lastlogin', $last_login);
         $stmt->bindParam(':login', $login);
         $stmt->bindParam(':role', $role);
-        $stmt->bindParam(':memberno', $comp_no);
-
-        // Execute the query to insert data into the database
+        $stmt->bindParam(':memberno', $member_no);
+        
+        // Execute the query
         $stmt->execute();
-
-        // Debugging: Check if the query was successful
-        if ($stmt->rowCount() > 0) {
-            // Redirect with success notification
-            header("location:../register.php?p=Employer&r=1123&message=You are now registered as an Employer");
-        } else {
-            // Redirect with failure message if no rows were inserted
-            header("location:../register.php?p=Employer&r=4568&message=Registration failed");
-        }
-
+        
+        // Redirect with a success message
+        header("location:../register.php?p=Employee&r=1123&message=You are now registered as an Employer");
     } catch (PDOException $e) {
-        // Handle exceptions and redirect with an error message
-        header("location:../register.php?p=Employer&r=4568&message=Error: ".$e->getMessage());
+        header("location:../register.php?p=Employee&r=4568&message=Registration failed");
     }
 }
+
 
 
 // Display the notification on the registration page
