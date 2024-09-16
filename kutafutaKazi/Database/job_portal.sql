@@ -70,7 +70,7 @@ INSERT INTO `tbl_alerts` (`id`, `code`, `description`, `type`) VALUES
 (14, '0591', 'Language was deleted successfully', 'success'),
 (15, '8763', 'Language have been updated', 'success'),
 (16, '6734', 'Academic qualification was updated', 'success'),
-(17, '9843', 'Your job advertise have been posted successfully', 'success'),
+(17, '9843', 'Your job advert has been posted successfully', 'success'),
 (18, '1964', 'Training / Workshop have been added successfully', 'success'),
 (20, '9210', 'working experience have been added', 'success'),
 (22, '9215', 'working experience updated successfully', 'success'),

@@ -60,7 +60,7 @@ include 'constants/check-login.php';
 					
 					<div class="logo-wrapper">
 						<div class="logo">
-							<a href="./"><img src="images/logo-black (3).png" alt="Logo" /></a>
+							<a href="./"><img src="images/2image.png" alt="Logo" /></a>
 						</div>
 					</div>
 					
